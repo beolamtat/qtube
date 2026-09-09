@@ -27,18 +27,26 @@ Chọn phiên bản phù hợp với máy Mac của bạn:
 
 | Phiên bản | Dành cho | Link tải trực tiếp | Dung lượng |
 | :--- | :--- | :--- | :--- |
-| **Bản Apple Silicon** | Máy Mac dùng chip M1/M2/M3/M4 | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) | **~49 MB** *(Đã tối ưu)* |
-| **Bản Intel** | Máy Mac dùng chip Intel | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) | **~14 MB** *(Đã tối ưu)* |
+| **Bản Apple Silicon** | Máy Mac dùng chip M1/M2/M3/M4 | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) | **~50 MB** *(Đã tối ưu)* |
+| **Bản Intel** | Máy Mac dùng chip Intel | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) | **~51 MB** *(Đã tối ưu)* |
 
 ---
 
 ## ✨ Tính năng nổi bật
 
 - **Tự động 100%**: Chỉ cần dán link là tải, tự động vượt cơ chế chống bot của YouTube mà không cần thao tác thủ công.
-- **Trích xuất link thông minh**: Tự động nhận diện nhiều link YouTube từ văn bản dán vào và loại bỏ link trùng.
-- **Tùy chọn linh hoạt**: Tải video (tùy chọn chất lượng đến 4K) hoặc chỉ trích xuất âm thanh M4A chất lượng cao.
-- **Tải theo hàng đợi**: Hỗ trợ tải đồng thời từ 1 đến 4 video, theo dõi tiến độ chi tiết, tốc độ và thời gian còn lại.
-- **Tích hợp sẵn**: Đóng gói sẵn toàn bộ công cụ cần thiết (`yt-dlp`, `ffmpeg`, `quickjs`), không cần cài đặt thêm phần mềm phụ trợ nào khác.
+- **Tối ưu siêu nhẹ**:
+  - Bản Apple Silicon: ~50 MB.
+  - Bản Intel: ~51 MB.
+  - Tích hợp QuickJS runtime siêu gọn nhẹ, loại bỏ hoàn toàn các thành phần thừa.
+- **Hỗ trợ Menu Bar Native**: Giữ app chạy nền với logo app và bộ đếm video tải trực quan trong thời gian thực.
+- **Chống ngủ máy (Sleep Prevention)**: Tự động giữ Mac luôn thức trong quá trình tải để không bị đứt kết nối mạng giữa chừng.
+- **Tự động bắt link Clipboard**: Copy link YouTube từ bất kỳ trình duyệt nào là app tự động nhận diện và đưa vào danh sách tải ngay.
+- **Hỗ trợ Playlist & YouTube Mix**: Quét và xem trước danh sách phát, hỗ trợ tải trọn bộ và nhận diện thông minh đài phát Mix.
+- **Tính năng cốt lõi**:
+  - Hỗ trợ tải Video chất lượng cao (lên đến 4K) hoặc trích xuất Audio (MP3/M4A có bìa bài hát).
+  - Tích hợp cookies trình duyệt giúp vượt qua cơ chế chặn bot và hạn chế độ tuổi của YouTube.
+  - Đóng gói sẵn toàn bộ công cụ cần thiết (`yt-dlp`, `ffmpeg`, `quickjs`), mở lên là dùng, không cần cài đặt thêm phần mềm phụ trợ.
 
 ---
 
@@ -54,22 +62,3 @@ Chọn phiên bản phù hợp với máy Mac của bạn:
 > 2. Vào **System Settings** > **Privacy & Security**.
 > 3. Cuộn xuống mục **Security**, bấm **Open Anyway** và chọn **Open** để xác nhận.
 > *(Bạn chỉ cần thực hiện bước này một lần duy nhất).*
-
----
-
-## 🛠 Phát triển & Đóng gói từ mã nguồn
-
-```bash
-# Cài đặt công cụ và build
-chmod +x scripts/*.sh
-./scripts/package-dmg.sh       # Tạo cả 2 bản: Apple Silicon và Intel
-# hoặc:
-# ./scripts/package-dmg.sh arm64      # Chỉ tạo bản Apple Silicon
-# ./scripts/package-dmg.sh x86_64     # Chỉ tạo bản Intel
-```
-
-Kiểm thử:
-```bash
-swift test --disable-sandbox
-```
-
