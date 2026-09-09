@@ -25,10 +25,10 @@
 
 Chọn phiên bản phù hợp với máy Mac của bạn:
 
-| Phiên bản | Dành cho | Link tải trực tiếp | Dung lượng |
-| :--- | :--- | :--- | :--- |
-| **Bản Apple Silicon** | Máy Mac dùng chip M1/M2/M3/M4 | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) | **~50 MB** *(Đã tối ưu)* |
-| **Bản Intel** | Máy Mac dùng chip Intel | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) | **~51 MB** *(Đã tối ưu)* |
+| Phiên bản | Dành cho | Link tải trực tiếp |
+| :--- | :--- | :--- |
+| **Bản Apple Silicon** | Máy Mac dùng chip M1/M2/M3/M4 | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) |
+| **Bản Intel** | Máy Mac dùng chip Intel | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) |
 
 ---
 
