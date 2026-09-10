@@ -18,8 +18,8 @@
     <img src="https://img.shields.io/badge/macOS-Intel%20Chip%20(.dmg)-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64.zip">
-    <img src="https://img.shields.io/badge/Windows-PC%20%2F%20Laptop%20(.zip)-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows">
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64-Setup.exe">
+    <img src="https://img.shields.io/badge/Windows-PC%20%2F%20Laptop%20(.exe)-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows">
   </a>
 </p>
 
@@ -33,7 +33,7 @@ Chọn phiên bản phù hợp với hệ điều hành và thiết bị của b
 | :--- | :--- | :---: | :--- |
 |  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) |
 |  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" width="14" height="14" alt="Windows" /> **Windows** | **Windows 64-bit** | `.zip` | [Tải về QTube-1.0.1-Windows-x64.zip](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64.zip) |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" width="14" height="14" alt="Windows" /> **Windows** | **Windows 64-bit** | `.exe` | [Tải về QTube-1.0.1-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64-Setup.exe) |
 
 
 
@@ -47,7 +47,7 @@ Chọn phiên bản phù hợp với hệ điều hành và thiết bị của b
 - **Tối ưu siêu nhẹ**:
   - Bản Apple Silicon: ~50 MB.
   - Bản Intel: ~51 MB.
-  - Bản Windows 64-bit: ~48 MB.
+  - Bản Windows 64-bit: ~46 MB.
   - Tích hợp QuickJS runtime siêu gọn nhẹ, loại bỏ hoàn toàn các thành phần thừa.
 - **Hỗ trợ Menu Bar & System Tray Native**: Giữ app chạy nền với logo app và bộ đếm video tải trực quan trong thời gian thực (Menu Bar trên macOS / Khay hệ thống System Tray trên Windows).
 - **Chống ngủ máy (Sleep Prevention)**: Tự động giữ máy luôn thức trong quá trình tải để không bị đứt kết nối mạng giữa chừng.
