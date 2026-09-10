@@ -31,9 +31,10 @@ Chọn phiên bản phù hợp với hệ điều hành và thiết bị của b
 
 | Hệ điều hành | Dòng máy / Cấu hình | Định dạng | Link tải trực tiếp |
 | :--- | :--- | :---: | :--- |
-| 🍏 **macOS** | **Mac Apple Silicon** (M1 / M2 / M3 / M4) | `.dmg` | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) |
-| 🍏 **macOS** | **Mac chip Intel** *(Chỉ dành cho máy Mac đời cũ, **không phải PC Windows**)* | `.dmg` | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) |
-| 🪟 **Windows** | **PC / Laptop Windows** *(Windows 10, Windows 11 64-bit)* | `.zip` | [Tải về QTube-1.0.1-Windows-x64.zip](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64.zip) |
+|  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) |
+|  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) |
+| 🪟 **Windows** | **Windows 64-bit** | `.zip` | [Tải về QTube-1.0.1-Windows-x64.zip](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64.zip) |
+
 
 
 
