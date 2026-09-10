@@ -47,9 +47,11 @@ Chọn phiên bản phù hợp với hệ điều hành và thiết bị của b
 - **Tối ưu siêu nhẹ**:
   - Bản Apple Silicon: ~50 MB.
   - Bản Intel: ~51 MB.
+  - Bản Windows 64-bit: ~142 MB (đóng gói sẵn trọn bộ công cụ).
   - Tích hợp QuickJS runtime siêu gọn nhẹ, loại bỏ hoàn toàn các thành phần thừa.
-- **Hỗ trợ Menu Bar Native**: Giữ app chạy nền với logo app và bộ đếm video tải trực quan trong thời gian thực.
-- **Chống ngủ máy (Sleep Prevention)**: Tự động giữ Mac luôn thức trong quá trình tải để không bị đứt kết nối mạng giữa chừng.
+- **Hỗ trợ Menu Bar & System Tray Native**: Giữ app chạy nền với logo app và bộ đếm video tải trực quan trong thời gian thực (Menu Bar trên macOS / Khay hệ thống System Tray trên Windows).
+- **Chống ngủ máy (Sleep Prevention)**: Tự động giữ máy luôn thức trong quá trình tải để không bị đứt kết nối mạng giữa chừng.
+
 - **Tự động bắt link Clipboard**: Copy link YouTube từ bất kỳ trình duyệt nào là app tự động nhận diện và đưa vào danh sách tải ngay.
 - **Hỗ trợ Playlist & YouTube Mix**: Quét và xem trước danh sách phát, hỗ trợ tải trọn bộ và nhận diện thông minh đài phát Mix.
 - **Tính năng cốt lõi**:
