@@ -60,19 +60,34 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 ## 🚀 Hướng dẫn cài đặt
 
 ### Dành cho macOS:
-1. Tải file `.dmg` tương ứng với dòng máy của bạn ở phần [Tải về](#-tải-về) bên trên.
+1. Tải file `.dmg` tương ứng với dòng máy của bạn:
+   - [Tải QTube cho Mac Apple Silicon (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg)
+   - [Tải QTube cho Mac chip Intel (.dmg)](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg)
 2. Mở file `.dmg` vừa tải về, kéo biểu tượng **QTube** vào thư mục **Applications**.
 3. Mở **QTube** từ Launchpad hoặc thư mục Applications để sử dụng.
 
 > [!NOTE]
-> **Lưu ý khi mở lần đầu (Nếu macOS hiển thị cảnh báo chưa xác minh):**
+> **Lưu ý khi mở lần đầu trên macOS (Nếu hiển thị cảnh báo chưa xác minh):**
 > 1. Đóng thông báo cảnh báo của macOS.
 > 2. Vào **System Settings** > **Privacy & Security**.
 > 3. Cuộn xuống mục **Security**, bấm **Open Anyway** và chọn **Open** để xác nhận.
 > *(Bạn chỉ cần thực hiện bước này một lần duy nhất).*
 
 ### Dành cho Windows:
-1. Tải file `QTube-1.0.1-Windows-x64-Setup.exe` ở phần [Tải về](#-tải-về) bên trên.
-2. Mở file setup vừa tải và nhấn **Next** để hoàn tất cài đặt (đã tích hợp sẵn runtime và các công cụ).
+1. Tải file cài đặt trọn gói: [**Tải về QTube-1.0.1-Windows-x64-Setup.exe**](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64-Setup.exe) (~81 MB)
+2. Mở file setup vừa tải và nhấn **Next** để hoàn tất cài đặt (đã tích hợp sẵn trọn gói .NET 8 Runtime, Windows App SDK và toàn bộ công cụ cần thiết).
 3. Mở **QTube** từ Desktop hoặc Start Menu để bắt đầu sử dụng.
+
+> [!NOTE]
+> **Lưu ý khi mở lần đầu trên Windows (Nếu Windows Defender SmartScreen hiển thị cảnh báo):**
+> Do phần mềm mới được phát hành, Windows có thể hiển thị bảng thông báo màu xanh *"Windows protected your PC / Windows đã bảo vệ PC của bạn"*:
+> 1. Bấm vào dòng chữ **"More info" (Xem thêm thông tin)**.
+> 2. Bấm nút **"Run anyway" (Vẫn chạy)** để tiến hành cài đặt bình thường.
+
+---
+
+## 💻 Yêu cầu hệ thống
+
+- **macOS**: macOS 12.0 (Monterey) trở lên (hỗ trợ cả Apple Silicon M1/M2/M3/M4 và chip Intel).
+- **Windows**: Windows 10 (bản 64-bit build 1809 trở lên) hoặc Windows 11.
 
