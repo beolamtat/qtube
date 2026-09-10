@@ -1,0 +1,10 @@
+.build/
+build/
+dist/
+Resources/Tools/
+Resources/ThirdPartyNotices/generated/
+.DS_Store
+windows/QTube.Windows/Tools/
+windows/QTube.Windows/bin/
+windows/QTube.Windows/obj/
+

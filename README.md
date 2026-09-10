@@ -5,7 +5,7 @@
 <h1 align="center">QTube</h1>
 
 <p align="center">
-  Ứng dụng macOS native tải video và âm thanh YouTube hàng loạt.<br>
+  Ứng dụng native tải video và âm thanh YouTube hàng loạt cho macOS và Windows.<br>
   Tự động vượt cơ chế chặn bot, giao diện đơn giản, tốc độ tối đa.
 </p>
 
@@ -17,18 +17,24 @@
   <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg">
     <img src="https://img.shields.io/badge/Download-Mac%20Intel%20(.dmg)-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="Download Intel">
   </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64.zip">
+    <img src="https://img.shields.io/badge/Download-Windows%2064--bit%20(.zip)-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows">
+  </a>
 </p>
 
 ---
 
 ## 📥 Tải về
 
-Chọn phiên bản phù hợp với máy Mac của bạn:
+Chọn phiên bản phù hợp với thiết bị của bạn:
 
 | Phiên bản | Dành cho | Link tải trực tiếp |
 | :--- | :--- | :--- |
 | **Bản Apple Silicon** | Máy Mac dùng chip M1/M2/M3/M4 | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) |
 | **Bản Intel** | Máy Mac dùng chip Intel | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) |
+| **Bản Windows 64-bit** | Máy tính Windows 10/11 (x64) | [Tải về QTube-1.0.1-Windows-x64.zip](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64.zip) |
+
 
 ---
 
@@ -52,6 +58,7 @@ Chọn phiên bản phù hợp với máy Mac của bạn:
 
 ## 🚀 Hướng dẫn cài đặt
 
+### Dành cho macOS:
 1. Tải file `.dmg` tương ứng với dòng máy của bạn ở phần [Tải về](#-tải-về) bên trên.
 2. Mở file `.dmg` vừa tải về, kéo biểu tượng **QTube** vào thư mục **Applications**.
 3. Mở **QTube** từ Launchpad hoặc thư mục Applications để sử dụng.
@@ -62,3 +69,9 @@ Chọn phiên bản phù hợp với máy Mac của bạn:
 > 2. Vào **System Settings** > **Privacy & Security**.
 > 3. Cuộn xuống mục **Security**, bấm **Open Anyway** và chọn **Open** để xác nhận.
 > *(Bạn chỉ cần thực hiện bước này một lần duy nhất).*
+
+### Dành cho Windows:
+1. Tải file `QTube-1.0.1-Windows-x64.zip` ở bảng [Tải về](#-tải-về) bên trên.
+2. Giải nén file `.zip` vừa tải về.
+3. Bấm đúp vào file **`Chay-QTube.bat`** để khởi chạy ứng dụng ngay (đã tích hợp sẵn `yt-dlp.exe`, `ffmpeg.exe`, `quickjs.exe`).
+

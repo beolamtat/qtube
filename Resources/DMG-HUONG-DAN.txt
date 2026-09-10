@@ -1,0 +1,11 @@
+QTUBE - HƯỚNG DẪN CÀI ĐẶT
+
+1. Kéo QTube vào thư mục Applications.
+2. Mở QTube trong Applications.
+3. Nếu macOS chặn ứng dụng, chọn Done.
+4. Mở System Settings > Privacy & Security.
+5. Kéo xuống phần Security và chọn Open Anyway.
+6. Xác nhận Open. Việc này chỉ cần làm một lần.
+
+Chỉ tải nội dung bạn sở hữu hoặc được chủ sở hữu cho phép.
+QTube không liên kết hay được YouTube/Google chứng thực.

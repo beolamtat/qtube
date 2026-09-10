@@ -1,0 +1,10 @@
+QTube includes separate, unmodified command-line tools:
+
+- yt-dlp: https://github.com/yt-dlp/yt-dlp
+- QuickJS (quickjs-ng): https://github.com/quickjs-ng/quickjs
+- FFmpeg 9.0.1: https://ffmpeg.org/releases/ffmpeg-9.0.1.tar.xz
+
+The exact executable versions are available by running each bundled tool with
+its version option. Their respective licenses and third-party notices are
+included with the app. QTube is not affiliated with or endorsed by YouTube,
+Google, yt-dlp, QuickJS, or FFmpeg.
