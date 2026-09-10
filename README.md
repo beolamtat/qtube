@@ -40,18 +40,20 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 ## ✨ Tính năng nổi bật
 
 - **Tự động 100%**: Chỉ cần dán link là tải, tự động vượt cơ chế chống bot của YouTube mà không cần thao tác thủ công.
-- **Tối ưu siêu nhẹ**:
-  - Bản Apple Silicon: ~50 MB.
-  - Bản Intel: ~51 MB.
-  - Tích hợp QuickJS runtime siêu gọn nhẹ, loại bỏ hoàn toàn các thành phần thừa.
-- **Hỗ trợ Menu Bar Native**: Giữ app chạy nền với logo app và bộ đếm video tải trực quan trong thời gian thực trên thanh Menu Bar.
+- **Đóng gói trọn gói (All-in-One Standalone)**:
+  -  **macOS (Apple Silicon)**: ~50 MB (`.dmg`).
+  -  **macOS (Intel Chip)**: ~51 MB (`.dmg`).
+  - 🪟 **Windows 10 / 11 (64-bit)**: ~81 MB (`Setup.exe` tích hợp sẵn .NET 8 Runtime, Windows App SDK, bộ giải mã và công cụ).
+  - Tích hợp QuickJS runtime siêu gọn nhẹ, mở app là dùng ngay mà không cần cài thêm bất kỳ runtime hay phần mềm phụ trợ nào.
+- **Giao diện Native hiện đại**:
+  - macOS: Giao diện SwiftUI tối ưu với Menu Bar icon chạy nền.
+  - Windows: Giao diện Fluent Design (WinUI 3) chuẩn Windows 11 với hiệu ứng nền Mica, thông báo Windows Toast.
 - **Chống ngủ máy (Sleep Prevention)**: Tự động giữ máy luôn thức trong quá trình tải để không bị đứt kết nối mạng giữa chừng.
 - **Tự động bắt link Clipboard**: Copy link YouTube từ bất kỳ trình duyệt nào là app tự động nhận diện và đưa vào danh sách tải ngay.
 - **Hỗ trợ Playlist & YouTube Mix**: Quét và xem trước danh sách phát, hỗ trợ tải trọn bộ và nhận diện thông minh đài phát Mix.
 - **Tính năng cốt lõi**:
   - Hỗ trợ tải Video chất lượng cao (lên đến 4K) hoặc trích xuất Audio (MP3/M4A có bìa bài hát).
-  - Tích hợp cookies trình duyệt giúp vượt qua cơ chế chặn bot và hạn chế độ tuổi của YouTube.
-  - Đóng gói sẵn toàn bộ công cụ cần thiết (`yt-dlp`, `ffmpeg`, `quickjs`), mở lên là dùng, không cần cài đặt thêm phần mềm phụ trợ.
+  - Đóng gói sẵn toàn bộ công cụ cần thiết (`yt-dlp`, `ffmpeg`, `quickjs`), tự động tối ưu hóa luồng tải và thử lại thông minh khi gặp lỗi.
 
 ---
 
