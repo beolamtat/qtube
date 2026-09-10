@@ -33,7 +33,8 @@ Chọn phiên bản phù hợp với hệ điều hành và thiết bị của b
 | :--- | :--- | :---: | :--- |
 |  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) |
 |  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) |
-| 🪟 **Windows** | **Windows 64-bit** | `.zip` | [Tải về QTube-1.0.1-Windows-x64.zip](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64.zip) |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" width="14" height="14" alt="Windows" /> **Windows** | **Windows 64-bit** | `.zip` | [Tải về QTube-1.0.1-Windows-x64.zip](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64.zip) |
+
 
 
 
