@@ -5,7 +5,7 @@
 <h1 align="center">QTube</h1>
 
 <p align="center">
-  Ứng dụng native tải video và âm thanh YouTube hàng loạt cho macOS.<br>
+  Ứng dụng native tải video và âm thanh YouTube hàng loạt cho macOS &amp; Windows.<br>
   Tự động vượt cơ chế chặn bot, giao diện đơn giản, tốc độ tối đa.
 </p>
 
@@ -17,18 +17,23 @@
   <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg">
     <img src="https://img.shields.io/badge/macOS-Intel%20Chip%20(.dmg)-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel">
   </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64-Setup.exe">
+    <img src="https://img.shields.io/badge/Windows-10%2F11%20x64%20(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows Setup">
+  </a>
 </p>
 
 ---
 
 ## 📥 Tải về
 
-Chọn phiên bản phù hợp với dòng máy Mac của bạn:
+Chọn phiên bản phù hợp với thiết bị của bạn:
 
 | Hệ điều hành | Dòng máy / Cấu hình | Định dạng | Link tải trực tiếp |
 | :--- | :--- | :---: | :--- |
 |  **macOS** | **Mac Apple Silicon** | `.dmg` | [Tải về QTube-1.0.1-AppleSilicon.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-AppleSilicon.dmg) |
 |  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) |
+| 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QTube-1.0.1-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64-Setup.exe) |
 
 ---
 
@@ -63,4 +68,9 @@ Chọn phiên bản phù hợp với dòng máy Mac của bạn:
 > 2. Vào **System Settings** > **Privacy & Security**.
 > 3. Cuộn xuống mục **Security**, bấm **Open Anyway** và chọn **Open** để xác nhận.
 > *(Bạn chỉ cần thực hiện bước này một lần duy nhất).*
+
+### Dành cho Windows:
+1. Tải file `QTube-1.0.1-Windows-x64-Setup.exe` ở phần [Tải về](#-tải-về) bên trên.
+2. Mở file setup vừa tải và nhấn **Next** để hoàn tất cài đặt (đã tích hợp sẵn runtime và các công cụ).
+3. Mở **QTube** từ Desktop hoặc Start Menu để bắt đầu sử dụng.
 
