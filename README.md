@@ -47,7 +47,7 @@ Chọn phiên bản phù hợp với hệ điều hành và thiết bị của b
 - **Tối ưu siêu nhẹ**:
   - Bản Apple Silicon: ~50 MB.
   - Bản Intel: ~51 MB.
-  - Bản Windows 64-bit: ~46 MB.
+  - Bản Windows 64-bit: ~81 MB (Tích hợp sẵn trọn bộ .NET Runtime & Windows App SDK, chạy độc lập).
   - Tích hợp QuickJS runtime siêu gọn nhẹ, loại bỏ hoàn toàn các thành phần thừa.
 - **Hỗ trợ Menu Bar & System Tray Native**: Giữ app chạy nền với logo app và bộ đếm video tải trực quan trong thời gian thực (Menu Bar trên macOS / Khay hệ thống System Tray trên Windows).
 - **Chống ngủ máy (Sleep Prevention)**: Tự động giữ máy luôn thức trong quá trình tải để không bị đứt kết nối mạng giữa chừng.
