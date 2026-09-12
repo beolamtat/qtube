@@ -35,7 +35,7 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 |  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.2-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.2/QTube-1.0.2-Intel.dmg) |
 | 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QTube-1.0.2-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.2/QTube-1.0.2-Windows-x64-Setup.exe) |
 
-**Mới ở v1.0.2:** Sửa lỗi chọn 1080p nhưng tệp chỉ có 480p trên Windows và macOS. Các mức phân giải cụ thể chỉ tải đúng mức được chọn; nếu không có luồng phù hợp, ứng dụng báo lỗi thay vì âm thầm hạ chất lượng. Tên tệp video mới có kèm độ phân giải để tránh trùng tệp cũ, và nhãn hàng đợi cập nhật theo chất lượng đã chọn thực tế. Smart App Control vẫn có thể chặn ứng dụng chưa được Windows xác minh; bản cập nhật này không tự tắt bảo vệ của hệ thống.
+**Mới ở v1.0.2:** Sửa lỗi chọn 1080p nhưng tệp chỉ có 480p trên Windows và macOS. Các mức phân giải cụ thể chỉ tải đúng mức được chọn; nếu không có luồng phù hợp, ứng dụng báo lỗi thay vì âm thầm hạ chất lượng. Tên tệp video mới có kèm độ phân giải để tránh trùng tệp cũ, và nhãn hàng đợi cập nhật theo chất lượng đã chọn thực tế. Hộp thoại cập nhật chỉ hiển thị tiêu đề thay đổi ngắn gọn. Smart App Control vẫn có thể chặn ứng dụng chưa được Windows xác minh; bản cập nhật này không tự tắt bảo vệ của hệ thống.
 
 ---
 
