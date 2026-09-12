@@ -35,6 +35,8 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 |  **macOS** | **Mac chip Intel** | `.dmg` | [Tải về QTube-1.0.1-Intel.dmg](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Intel.dmg) |
 | 🪟 **Windows** | **Windows 10 / 11 (64-bit)** | `.exe` | [Tải về QTube-1.0.1-Windows-x64-Setup.exe](https://github.com/beolamtat/qtube/releases/download/v1.0.1/QTube-1.0.1-Windows-x64-Setup.exe) |
 
+**Bộ cài v1.0.1 được cập nhật:** Windows đã sửa lỗi chữ khó đọc ở giao diện sáng và chọn đúng file cập nhật; installer hiển thị hướng dẫn khi lần mở app sau cài đặt bị Smart App Control chặn (mã 4551). macOS chọn đúng DMG theo chip và giữ bản cũ để khôi phục nếu thay ứng dụng thất bại. Smart App Control vẫn có thể chặn ứng dụng chưa được Windows xác minh; bản cập nhật này không tự tắt bảo vệ của hệ thống.
+
 ---
 
 ## ✨ Tính năng nổi bật
@@ -83,11 +85,12 @@ Chọn phiên bản phù hợp với thiết bị của bạn:
 > Do phần mềm mới được phát hành, Windows có thể hiển thị bảng thông báo màu xanh *"Windows protected your PC / Windows đã bảo vệ PC của bạn"*:
 > 1. Bấm vào dòng chữ **"More info" (Xem thêm thông tin)**.
 > 2. Bấm nút **"Run anyway" (Vẫn chạy)** để tiến hành cài đặt bình thường.
+>
+> Nếu cảnh báo ghi **Smart App Control blocked an app** (mã 4551), đây là chính sách khác với SmartScreen và không có nút **Run anyway** cho từng ứng dụng. Mở **Windows Security > App & browser control > Smart App Control settings** để kiểm tra trạng thái. Chỉ khi bạn tin cậy nguồn tải và chấp nhận thay đổi bảo vệ cho toàn bộ máy, bạn mới nên cân nhắc tắt Smart App Control; có thể không bật lại được nếu không cài đặt lại Windows.
 
 ---
 
 ## 💻 Yêu cầu hệ thống
 
-- **macOS**: macOS 12.0 (Monterey) trở lên (hỗ trợ cả Apple Silicon M1/M2/M3/M4 và chip Intel).
+- **macOS**: macOS 13.0 (Ventura) trở lên (hỗ trợ cả Apple Silicon M1/M2/M3/M4 và chip Intel).
 - **Windows**: Windows 10 (bản 64-bit build 1809 trở lên) hoặc Windows 11.
-
